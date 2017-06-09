@@ -1,0 +1,23 @@
+{
+  "name": "payxpert/connect2pay",
+  "description": "Payxpert Payment Page System client library",
+  "license": "Apache License, Version 2.0",
+  "keywords": [
+    "payment",
+    "credit card",
+    "bank transfer"
+  ],
+  "homepage": "https://gitlab.com/payxpert/connect2pay-php-client",
+  "autoload": {
+    "psr-4": {
+      "PayXpert\\Connect2Pay\\": "src"
+    }
+  },
+  "require": {
+    "php": ">= 5.3"
+   },
+  "suggest": {
+    "ext-curl": "CURL extension",
+    "ext-mcrypt": "MCrypt extension"
+  }
+}
