@@ -7,7 +7,7 @@
     "credit card",
     "bank transfer"
   ],
-  "homepage": "https://gitlab.com/payxpert/connect2pay-php-client",
+  "homepage": "https://github.com/PayXpert/connect2pay-php-client",
   "autoload": {
     "psr-4": {
       "PayXpert\\Connect2Pay\\": "src"
