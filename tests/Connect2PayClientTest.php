@@ -1,6 +1,5 @@
 <?php
 
-use PHPUnit\Framework\TestCase;
 use PayXpert\Connect2Pay\Connect2PayClient;
 
 /**
