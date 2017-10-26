@@ -1,6 +1,8 @@
 PayXpert Payment Page client
 ============================
 
+[![Build Status](https://travis-ci.org/PayXpert/connect2pay-php-client.svg?branch=master)](https://travis-ci.org/PayXpert/connect2pay-php-client)
+
 This library is the official PHP client to interact with the PayXpert Payment Page system.
 The whole payment workflow is implemented through easy to use methods.
 
