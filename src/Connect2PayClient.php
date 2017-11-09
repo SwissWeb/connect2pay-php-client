@@ -41,7 +41,7 @@ namespace PayXpert\Connect2Pay;
  * PHP CURL module
  * PHP Mcrypt module
  *
- * @version @@VERSION@@
+ * @version 2.6.0
  * @copyright 2011-2017 PayXpert
  *
  */
