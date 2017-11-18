@@ -1032,7 +1032,8 @@ class Connect2PayClient {
     $binData = $this->urlsafe_base64_decode($encryptedData);
 
     // Decrypting
-    $json = mcrypt_decrypt(MCRYPT_RIJNDAEL_128, $key, $binData, MCRYPT_MODE_ECB);
+    //$json = mcrypt_decrypt(MCRYPT_RIJNDAEL_128, $key, $binData, MCRYPT_MODE_ECB);
+    $json = openssl_decrypt($binData, 'AES-128-ECB', $key, OPENSSL_RAW_DATA | OPENSSL_ZERO_PADDING);
 
     if ($json) {
       // Remove PKCS#5 padding
